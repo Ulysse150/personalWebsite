@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="frise.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="buttonStyle.css">
+  <link rel="stylesheet" href="experiences.css">
+  <link rel="stylesheet" href="timeLine.css">
+  <script defer src="script2.js"> </script>
+  <title>Raphael Leonardi</title>
+
+</head>
+<body>
+  <h1></h1>
+  <p></p>
+  <body >
+    <div class="container">
+      <div class="red-band">
+      
+        
+        <button class="language-btn" onclick="changerLangue()">
+            <span class="lang-text">FR</span>
+            <span class="lang-divider">/</span>
+            <span class="lang-text">EN</span>
+        </button>
+    
+        <div id="nom">Raphael Leonardi</div> 
+    
+        <ul id="menu">
+            <li><a  href="#welcId"><p data-translate>A propos de moi</p></a></li>
+            <li><a  href="#edId"><p data-translate>Parcours</p></a></li>
+            <li><a  href="#skillsId"><p data-translate>Compétences</p></a></li>
+            <li><a   href="#projects"><p data-translate>Projets</p></a></li>
+            <li><a href="#expId"> <p data-translate>Stages, Expériences profesionnelles</p></a></li>
+        </ul>
+    </div>
+      <div class="content"  >
+        
+          
+        <section id="welcId"  class="animated">
+          <h1 class="styled-title" data-translate >A propos de moi :</h1>
+          <p class="textNoir"data-translate>Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en LDD3 Magistère Informatique à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie.
+            Vous pourrez trouver ici quelques liens vous permettant de mieux comprendre mon parcours dans l'informatique :
+
+
+          </p>
+          
+          <div class="icon-container">
+              <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="cv.pdf"><section  data-translate>Mon CV</section> <img src="images/cv_icon.png" alt="Miniature du CV" class="cv-thumbnail"></a>
+              <a   target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://github.com/Ulysse150" ><section  data-translate>Mon Github</section> <img src="images/github.png" alt="Miniature de GitHub" class="cv-thumbnail"></a>
+              <a target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.linkedin.com/in/raphael-leonardi-64bb8b347/" > <section data-translate>Mon Linkedin</section> <img src="images/linkedin.png" alt="Miniature de LinkedIn" class="cv-thumbnail"></a>
+              
+        </div>
+      </section>
+
+        <section id = "edId"  class="animated">
+            <h1 class="styled-title" data-translate>Parcours : </h1>
+              <section class="timeline">
+               
+                <ol>
+                  <li>
+                    <div>
+                      <time  data-translate>Décembre 2018 : Stage de 3ème au LRI</time>
+                    <section data-translate="">J'ai effectué mon stage de 3ème sous la tutelle du chercheur Jean Christophe Filliatre au sein du Laboratoire de Recherche en Informatique (aujourd'hui LISN), j'ai pu apprendre les bases de l'informatique notamment le langage Python.
+                      Déja engagé dans une optique d'étudier l'informatique, ce stage a pu confirmer mes attentes.</section> 
+
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <time  data-translate>2020-2022 : Lycée</time> 
+                     <section  data-translate> J'ai effectué mon parcours de lycéen au Lycée Jules Verne à Limours, en prennant en terminale 
+                      les spécialités de Mathématiques, Numérique et Science de l'Informatique et Mathématiques Expertes.</section>
+                    </div>
+                  </li>
+               
+                  
+                  <li>
+                    <div >
+                      <time  data-translate>2022-2024 : Licence Double Dipôme Mathématiques Informatique</time>
+                      <section  data-translate>
+                      Pendant deux ans, j'ai étudié et découvert les combinaisons entre deux disciplines : les Mathématiques et l'Informatique, au sein de l'Université 
+                      Paris-Saclay, dans la ville de Bures-sur-Yvette.</section>
+                      </div>
+                  </li>
+
+                  <li>
+                    <div ><time data-translate="">2024-actuellement : LDD3 Magistère Informatique </time>
+                     <section data-translate="">Après deux ans de Mathématiques et d'Informatique, j'ai décidé de me spécialiser dans l'Informatique en
+                      rejoignant le Magistère d'Informatique, qui faisait partie des parcours que je pouvais prendre en 3ème année.</section> 
+                      </div>
+                  </li>
+
+
+                  <li>
+                    <div >
+                      <time  data-translate>Janvier-Avril 2025 : Travail Encadré de Recherche </time>
+                     <section data-translate>J'effectue actuellement un stage de TER (Travail Encadré de Recherche). Je l'effectue
+                      à l'INRIA au sein de l'équipe GRACE, sous le tutorat du post doctorant Christophe Levrat Mon travail consiste à étudier et implémenter des protocoles de preuve 0-knowledge, pour des procédés cryptographiques.</section>
+
+                      </div>
+                  </li>
+
+
+                  <li></li>
+                </ol>
+              
+                </section>
+        </section>
+        
+        <section id = "skillsId" class="boiteBlanche" class="animated" >
+            <h1 class="styled-title"  data-translate>Compétences : </h1>
+            <section id="langues">
+              <div class="lang-item">
+                  <img src="images/french.png" alt="French">
+                  <span  data-translate>Langue Maternelle</span>
+              </div>
+              <div class="lang-item">
+                  <img src="images/english.png" alt="English">
+                  <span  data-translate>Niveau C1</span>
+              </div>
+              <div class="lang-item">
+                  <img src="images/spanish.png" alt="Spanish">
+                  <span  data-translate>Niveau A2</span>
+              </div>
+          </section >
+           
+     
+            <br></br>
+            <p class="textNoir"  data-translate>Au fil de mes années d'expérience en informatique et en mathématiques, j'ai eu l'occasion de maîtriser une variété de langages de programmation et d'outils de développement.
+               Vous trouverez ci-dessous des tableaux listant mes compétences.
+            </p>
+            <br></br>
+      <section id = "tableaux" >
+   
+
+      <div class="competence-table"  >
+        <table>
+            <tr>
+                <th  data-translate>Langage de programmation</th>
+                
+                <th  data-translate>Niveau</th>
+            </tr>
+            <tr>
+                <td>
+                  <div class="langages">
+                  <a   target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://fr.wikipedia.org/wiki/C_(langage)">
+                    <img src="images/C.png" title="C" class="logo">
+                  </a>
+                  <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://fr.wikipedia.org/wiki/C%2B%2B">
+                    <img src="images/Cpp.png" title="C++" class="logo">
+                  </a>
+                  <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://fr.wikipedia.org/wiki/Python">
+                    <img src="images/python.png" title="Python" class="logo">
+                  </a>
+                </td>
+              </div>
+                <style>
+                  .langages {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                  }
+                  
+                  .logo {
+                    
+                    border-radius: 5px;
+                  }
+                  </style>
+               
+                <td>
+                  <div class="skill-container confirmed">
+       
+                    <div class="level-label">Confirmé</div>
+                    <div class="level-bar">
+                        <div class="level-fill"></div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+              <div class="langages">
+              <td>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.java.com">
+                  <img src="images/java.png" title="Java">
+                </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://ocaml.org">
+                  <img src="images/ocaml.png" title="OCaml">
+                </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://dotnet.microsoft.com/fr-fr/languages/csharp">
+                  <img src="images/csharp.png" title="C#">
+                </a>
+              </td>
+            </div>
+               
+
+                <td>
+                  <div class="skill-container advanced">
+        
+                    <div class="level-label">Avancé</div>
+                    <div class="level-bar">
+                        <div class="level-fill"></div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwifj8zwtbuLAxVBVqQEHRPgALwQFnoECA4QAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FStructured_Query_Language&usg=AOvVaw227ZtEWrpAaS8pUYs9QQ94&opi=89978449">
+                  <img src="images/sql.png" title="SQL">
+                </a>  
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiuqoawtruLAxVfTaQEHbdRLiQQFnoECCcQAQ&url=https%3A%2F%2Ffr.overleaf.com%2F&usg=AOvVaw2M3NvgKySbPyc_OYjRWMT6&opi=89978449">
+                  <img src="images/tex.png" title = "LaTeX">
+                </a>
+                
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjfodjotruLAxWDKvsDHZZqAJ0QFnoECAkQAQ&url=https%3A%2F%2Fpari.math.u-bordeaux.fr%2F&usg=AOvVaw04pcgHWY5feF6BbP8-YCuS&opi=89978449">
+                  <img src="images/pari.png" title="Pari GP">
+                </a>
+               
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjRp4yDt7uLAxW3AfsDHbPqLFQQFnoECAgQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FHTML5&usg=AOvVaw20sd9_NDNoxvZ-w2T3gRDO&opi=89978449">
+                  <img src="images/html.png" title="HTML"> 
+                </a>
+               
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjxzL2Wt7uLAxU-T6QEHYiTAGIQFnoECAgQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FFeuilles_de_style_en_cascade&usg=AOvVaw0gw6TF0hg_mYdZHPNYQpfl&opi=89978449">
+                  <img src="images/css.png" title="CSS">
+                </a>
+                
+              </td>
+                
+                <td>
+                  <div class="skill-container intermediate">
+        
+                    <div class="level-label">Intermédiaire</div>
+                    <div class="level-bar">
+                        <div class="level-fill"></div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    <div class="competence-table">
+      <table>
+          <tr>
+              <th data-translate>Librairie, Logiciel</th>
+              <th  data-translate> Domaine</th>
+             
+          </tr>
+
+          <tr>
+            <td>
+                
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://matplotlib.org">
+                  <img src = "images/malplotlib.png" title="MatplotLib">
+                </a>
+
+                <a   target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://numpy.org">
+                  <img src = "images/numpy.png" title="Numpy">
+                </a>
+
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://scikit-learn.org/stable/">
+                  <img src = "images/sklearn.png" title="Scikit-learn">
+                </a>
+
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://pandas.pydata.org">
+                  <img src = "images/pandas.png" title="Pandas">
+                </a>
+                
+            
+            </td>
+            <td>
+              <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href = https://fr.wikipedia.org/wiki/Apprentissage_automatique>
+              <img src = "images/machineLearning.png" title="Machine Learning"></a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="langages">
+              <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href= "https://code.visualstudio.com">
+                <img src="images/vscode.png"  title="Visual Studio Code "> 
+              </a>
+              <a target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.jetbrains.com/idea/">
+                <img src="images/idea.png" title="Intellij Idea">
+              </a>
+                
+              <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href = "https://visualstudio.microsoft.com/fr/">
+                <img src="images/visual.png" title="Visual Studio">
+              </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQ1I-Ts7uLAxXvgHwGHWsSEZgYABAAGgJ3cw&ae=2&co=1&gclid=CjwKCAiAh6y9BhBREiwApBLHC6Esf34y0Ohea8gykevaZ2bFS4sYP0lNYFwmOY-Ck83ozEIZ-yuAPhoCnwUQAvD_BwE&ohost=www.google.com&cid=CAESVuD2Qi1nxk1mvibIJF4WqiD8_W1Y7cyZFWezX8LHVKDa82_S85fB3O9HvSR0aG_jf8qrt5E0i2eL0LwwYkU2sQUuCOKibxP0MPPQkB0LHca2A7CLJ2KK&sig=AOD64_1PMbYesEq-ticzITRjaxo-8By2JQ&q&adurl&ved=2ahUKEwiqzoqTs7uLAxXGKvsDHTGsM64Q0Qx6BAgIEAE">
+                  <img src="images/clion.png" title="Clion">
+                </a>
+              </div>
+            </td>
+            <td data-translate>Logiciels de programmation</td>
+          </tr>
+
+          <tr>
+            <td>
+              
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.pygame.org/docs/">
+                  <img src="images/pygame.png" title="Pygame">
+                </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://www.libsdl.org">
+                  <img src="images/sdl.png" title="SDL">
+                </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://processing.org">
+                  <img src="images/processing.png" title="Processing">
+                </a>
+                <a  target = "blank" rel="onclick="window.open(this.href, '_blank'); return false;"  href="https://docs.oracle.com/javase/8/docs/api///?javax/swing/package-summary.html">
+                  <img src="images/swing.png" title="Swing">
+                </a>
+              
+
+            </td>
+            <td  data-translate>Environnements de Développement Graphique</td>
+          </tr>
+
+          <!--
+          <tr>  
+            <td><p>Algèbre Linéaire</p>  <p>Calculus</p> <p>Statistiques</p> 
+              <p>Structures Algébriques</p></td>
+            <td><img src="images/maths.png" alt=""></td>
+          </tr>
+          <tr>
+            <td> 
+               <p>Programmation Fonctionnelle</p>
+               <p>Programmation Orientée Objet</p>
+               <p>Programmation Impérative </p>
+               <p>Programmation Dynamqiue</p> 
+            </td>
+            <td>Paradigme de programmation</td>
+          </tr>-->
+
+        
+      </table>
+  </div>
+  </section>
+</section>
+      </div>
+    </div>
+  <section id = "projects" class="boiteBlanche" class="animated">
+    <div class = "Introduction">
+      <h1 class="styled-title"  data-translate>Projets : </h1>
+     <p class="textNoir"  data-translate> Voici quelques projets que j'ai réalisé, certains pour l'université, et d'autres que j'ai décidé de faire de moi-même.
+    </p>
+
+    </div>
+   
+    <div class="projects-container">
+      <!-- Exemple de projet -->
+      <div class="project-card">
+          <div class="project-image">
+              <img src="images/maze.png" ><img>
+          </div>
+          <div class="project-content">
+              <h3 class="project-title"  data-translate>Résolution de labyrinthes en Ocaml</h3>
+              <p class="project-description"  data-translate>Le but de ce projet était de créer des algorithmes pour générer, résoudre et affiche des labyrinthes dans un terminal. Je l'ai réalise en collaboration avec un autre étudiant, Baptiste Pras.</p>
+              <div class="project-technologies">
+                  <span class="tech-tag"  data-translate>Ocaml</span>
+                 
+              </div>
+              <a href="https://github.com/Ulysse150/mazesOcaml.git" target="_blank" class="github-link">
+                  <img src="images/github.png" alt="GitHub" class="github-icon">
+                  <p  data-translate>Voir sur GitHub</p>
+              </a>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+            <img src="images/kawa.png"Nom du projet">
+        </div>
+        <div class="project-content">
+            <h3 class="project-title"  data-translate>Projet Kawa</h3>
+            <p class="project-description"  data-translate>J'ai du implémenter comme projet final un mini langage appellé Kawa s'inspirant de Java, en utilisant le lange Ocaml, et plus précisemment la bibliothèque Menhir.</p>
+            <div class="project-technologies">
+                <span class="tech-tag" data-translate>Ocaml</span>
+                <span class="tech-tag"  data-translate>Menhir</span>
+            </div>
+            <a href="https://github.com/Ulysse150/projetCompil.git" target="_blank" class="github-link">
+                <img src="images/github.png" alt="GitHub" class="github-icon">
+                <p  data-translate>Voir sur GitHub</p>            
+            </a>
+        </div>
+    </div>
+      <div class="project-card">
+          <div class="project-image">
+             
+          </div>
+          <div class="project-content">
+              
+              <img src = "images/colt.png"> 
+              <h3 class="project-title"  data-translate>Colt Express</h3>
+              <p class="project-description"  data-translate>Implémentation en Java, du jeu de société Colt Express, en utilisant la bibliothèque Swing. </p>
+              <div class="project-technologies">
+                  <span class="tech-tag"  data-translate>Java</span>
+                  <span class="tech-tag"  data-translate>Swing</span>
+              </div>
+              <a href="https://github.com/Ulysse150/Colt.git" target="_blank" class="github-link">
+                  <img src="images/github.png" alt="GitHub" class="github-icon">
+                  <p  data-translate>Voir sur GitHub</p>                     </a>
+          </div>
+      </div>
+      <div class="project-card">
+         
+          <div class="project-content">
+              
+              <img src="images/process.png">
+              <h3 class="project-title"  data-translate>Processing</h3>
+              <p class="project-description"  data-translate>Implémentation d'éoliennes et de pylones en 3d en Processing.</p>
+              <div class="project-technologies">
+                  <span class="tech-tag"  data-translate>Processing</span>
+                 
+              </div>
+              <a href="https://github.com/Ulysse150/turbines.git" target="_blank" class="github-link">
+                  <img src="images/github.png" alt="GitHub" class="github-icon">
+                  <section  data-translate>Voir sur GitHub</section>
+              </a>
+          </div>
+      </div>
+
+      
+      <div class="project-card">
+         
+        <div class="project-content">
+            
+            <img src="images/conway.png">
+            <h3 class="project-title"  data-translate>Jeu de la Vie</h3>
+            <p class="project-description"  data-translate>Implémentation du jeu de la vie de Conway en C++ dans un terminal.</p>
+            <div class="project-technologies">
+                <span class="tech-tag" data-translate>C++</span>
+               
+            </div>
+            <a href="https://github.com/Ulysse150/gameOfLife.git" target="_blank" class="github-link">
+                <img src="images/github.png" alt="GitHub" class="github-icon">
+                <p  data-translate>Voir sur GitHub</p>
+            </a>
+        </div>
+    </div>
+    <div class="project-card">
+         
+      <div class="project-content">
+          
+          <img src="images/path.png">
+          <h3 class="project-title"  data-translate>Pathfinding en Python</h3>
+          <p class="project-description"  data-translate>Implémentation en Python d'un algorithme pour calculer un chemin d'un point A à un point B, et visualiser cet algorithme.</p>
+          <div class="project-technologies" >
+              <span class="tech-tag"  data-translate>Python</span>
+             
+          </div>
+          <a href="https://github.com/Ulysse150/pathfinding.git" target="_blank" class="github-link">
+              <img src="images/github.png" alt="GitHub" class="github-icon">
+              <p data-translate>Voir sur GitHub</p>
+          </a>
+      </div>
+  </div>
+
+    
+  </div>
+
+  </section>
+
+
+  <section id = "expId" class="experiences-container">
+    <div class="experiences-column stages">
+        <h2 data-translate>Stages</h2>
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>Travail Encadré de Recherche</h3>
+                <span class="experience-date" data-translate>Janvier - Avril 2025</span>
+            </div>
+            <div class="experience-details">
+                <p class="experience-company" data-translate>INRIA - Équipe GRACE</p>
+                <p  data-translate class="experience-description">
+                    Étude et implémentation de protocoles de preuve 0-knowledge pour des procédés cryptographiques, sous le tutorat du post-doctorant Christophe Levrat.
+                    J'utilise le langage C et plus particulièrement la bibliothèque Pari GP pour implémenter ces procédés.
+                </p>
+                <div class="experience-skills">
+                    <span class="skill-tag" data-translate>Cryptographie</span>
+                    <span class="skill-tag" data-translate>Recherche</span>
+                    <span class="skill-tag" data-translate>Protocoles</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>Stage de 3ème</h3>
+                <span class="experience-date" data-translate>Décembre 2018</span>
+            </div>
+            <div class="experience-details">
+                <p class="experience-company"data-translate >Laboratoire de Recherche en Informatique (LRI)</p>
+                <p class="experience-description" data-translate>
+                    Découverte des bases de l'informatique et du langage Python sous le tutorat de Jean-Christophe Filliatre.
+                </p>
+                <div class="experience-skills">
+                    <span class="skill-tag" data-translate>Python</span>
+                    <span class="skill-tag" data-translate>Recherche</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="experiences-column pro">
+        <h2 data-translate>Expériences Professionnelles</h2>
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>AI Expert pour Outlier</h3>
+                <span class="experience-date" data-translate>2024-actuellement</span>
+            </div>
+            <div class="experience-details">
+                <p  data-translate class="experience-company">Outlier</p>
+                <p  data-translate class="experience-description">
+                    Je travaille en Freelance pour l'entreprise Outlier. Mon travail consiste à entrainer, tester, noter et corriger des IA pour générer et corriger des programmes informatiques.
+                    On me confie également de temps à autre la tâche de corriger les tâches d'autres contributeurs pour Outlier.
+                </p>
+                <div class="experience-skills">
+                    <span data-translate class="skill-tag">FreeLance</span>
+                   
+                    <span data-translate class="skill-tag">IA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  </body>
+</html>

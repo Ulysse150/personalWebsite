@@ -1,0 +1,327 @@
+[
+    {
+      "fr": "A propos de moi",
+      "eng": "About me"
+    },
+    {
+      "fr": "Parcours",
+      "eng": "Background"
+    },
+    {
+      "fr": "Compétences",
+      "eng": "Skills"
+    },
+    {
+      "fr": "Projets",
+      "eng": "Projects"
+    },
+    {
+      "fr":"Stages, Expériences profesionnelles",
+      "eng":"Internships, Professionnal Experiences"
+    },
+    {
+      "fr": "A propos de moi :",
+      "eng": "About me:"
+    },
+    {
+      "fr": "Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en LDD3 Magistère Informatique à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie. Vous pourrez trouver ici quelques liens vous permettant de mieux comprendre mon parcours dans l'informatique :",
+      "eng": "Welcome to my personal website! My name is Raphael Leonardi, I am a student in LDD3 Computer Science at Paris-Saclay University, interested in Machine Learning and Cryptography. Here you will find some links to better understand my journey in computer science:"
+    },
+    {
+      "fr":"Mon CV",
+      "eng":"My CV"
+    },
+    {
+      "fr":"Mon Github",
+      "eng":"My Github"
+    },
+    {
+      "fr":"Linkedin",
+      "eng":"Linkedin"
+    },
+    {
+      "fr": "Parcours :",
+      "eng": "Background:"
+    },
+
+    {
+      "fr": "Décembre 2018 :",
+      "eng": "December 2018"
+    },
+    {
+     "fr": "Stage de 3ème au LRI sous le tutorat du chercheur Jean Christophe Filliatre au sein du Laboratoire de Recherche en Informatique (aujourd'hui LISN), j'ai pu apprendre les bases de l'informatique notamment le langage Python.",
+      "eng":"9th grade internship at LRI Under the mentorship of researcher Jean Christophe Filliatre at the Computer Science Research Laboratory (now LISN), I learned the basics of computer science, particularly Python. Already committed to studying computer science, this internship confirmed my expectations."
+    },
+    {
+      "fr": "2020-2022 : Lycée",
+      "eng": "2020-2022 : High School"
+    },
+  
+    {
+      "fr": "J'ai effectué mon parcours de lycéen au Lycée Jules Verne à Limours, en prennant en terminale les spécialités de Mathématiques, Numérique et Science de l'Informatique et Mathématiques Expertes.",
+      "eng": "High School I completed my high school education at Lycée Jules Verne in Limours, taking specializations in Mathematics, Digital and Computer Science, and Advanced Mathematics in my final year."
+    },
+    {
+      "fr": "2022-2024 : LDD1-LDD2 Mathématiques Informatique",
+      "eng": "2022-2024 : Double Degree in Mathematics and Computer Science"
+    },
+    {
+      "fr": " Pendant deux ans, j'ai étudié et découvert les combinaisons entre deux disciplines : les Mathématiques et l'Informatique, au sein de l'Université Paris-Saclay, dans la ville de Bures-sur-Yvette.",
+      "eng": " For two years, I studied and discovered the combinations between two disciplines: Mathematics and Computer Science, at Paris-Saclay University, in the city of Bures-sur-Yvette."
+    },
+    {
+      "fr": "2024-2025 : LDD3 Magistère Informatique",
+      "eng": "2024-2025 : LDD3 Computer Science Magistère"
+    },
+    {
+      "fr": " Après deux ans de Mathématiques et d'Informatique, j'ai décidé de me spécialiser dans l'Informatique en rejoignant le Magistère d'Informatique, qui faisait partie des parcours que je pouvais prendre en 3ème année.",
+      "eng": "  After two years of Mathematics and Computer Science, I decided to specialize in Computer Science by joining the Computer Science Magistère, which was one of the paths I could take in my third year."
+    },
+    {"fr":"Janvier-Avril 2025 : Travail Encadré de Recherche",
+      "eng":"January-May 2025 : Supervised Research Work"
+    },
+    {
+      "fr": "J'effecture actuellement un stage de TER (Travail Encadré de Recherche). Je l'effectue à l'INRIA au sein de l'équipe GRACE, sous le tutorat du post doctorant Christophe Levrat. Mon travail consiste à étudier et implémenter des protocoles de preuve 0-knowledge, pour des procédés cryptographiques.",
+      "eng": "I am currently doing a TER internship (Supervised Research Work) at INRIA within the GRACE team, under the mentorship of postdoctoral researcher Christophe Levrat. My work involves studying and implementing zero-knowledge proof protocols for cryptographic processes."
+    },
+    {
+      "fr": "Compétences :",
+      "eng": "Skills:"
+    },
+    {
+      "fr": "Langue Maternelle",
+      "eng": "Native Language"
+    },
+    {
+      "fr": "Niveau C1",
+      "eng": "C1 Level"
+    },
+    {
+      "fr": "Niveau A2",
+      "eng": "A2 Level"
+    },
+    {
+      "fr": "Au fil de mes années d'expérience en informatique et en mathématiques, j'ai eu l'occasion de maîtriser une variété de langages de programmation et d'outils de développement. Vous trouverez ci-dessous des tableaux listant mes compétences.",
+      "eng": "Throughout my years of experience in computer science and mathematics, I have had the opportunity to master a variety of programming languages and development tools. Below you will find tables listing my skills."
+    },
+    {
+      "fr": "Langage de programmation",
+      "eng": "Programming Language"
+    },
+    {
+      "fr": "Niveau",
+      "eng": "Level"
+    },
+    {
+      "fr": "Librairie, Logiciel",
+      "eng": "Library, Software"
+    },
+    {
+      "fr": "Domaine",
+      "eng": "Domain"
+    },
+    {
+      "fr": "Logiciels de programmation",
+      "eng": "Programming Software"
+    },
+    {
+      "fr": "Environnements de Développement Graphique",
+      "eng": "Graphical Development Environments"
+    },
+    {
+      "fr": "Projets :",
+      "eng": "Projects:"
+    },
+    {
+      "fr": "Voici quelques projets que j'ai réalisé, certains pour l'université, et d'autres que j'ai décidé de faire de moi-même.",
+      "eng": "Here are some projects I've completed, some for university and others that I decided to do on my own."
+    },
+    {
+      "fr": "Résolution de labyrinthes en Ocaml",
+      "eng": "Maze solving in Ocaml"
+    },
+    {
+      "fr": "Le but de ce projet était de créer des algorithmes pour générer, résoudre et affiche des labyrinthes dans un terminal. Je l'ai réalise en collaboration avec un autre étudiant, Baptiste Pras.",
+      "eng": "The goal of this project was to create algorithms to generate, solve and display mazes in a terminal. I completed it in collaboration with another student, Baptiste Pras."
+    },
+    {
+      "fr": "Ocaml",
+      "eng": "Ocaml"
+    },
+    {
+      "fr": "Voir sur Github",
+      "eng": "View on Github"
+    },
+    {
+      "fr": "Projet Kawa",
+      "eng": "Kawa Project"
+    },
+    {
+      "fr": "J'ai du implémenter comme projet final un mini langage appellé Kawa s'inspirant de Java, en utilisant le lange Ocaml, et plus précisemment la bibliothèque Menhir.",
+      "eng": "I had to implement a mini language called Kawa inspired by Java, using the Ocaml language, and more specifically the Menhir library."
+    },
+    {
+      "fr": "Ocaml",
+      "eng": "Ocaml"
+    },
+    {
+      "fr": "Menhir",
+      "eng": "Menhir"
+    },
+    {
+      "fr": "Voir sur Github",
+      "eng": "View on Github"
+    },
+    {
+      "fr": "Colt Express",
+      "eng": "Colt Express"
+    },
+    {
+      "fr": "Implémentation en Java, du jeu de société Colt Express, en utilisant la bibliothèque Swing.",
+      "eng": "Java implementation of the Colt Express board game using the Swing library."
+    },
+    {
+      "fr": "Java",
+      "eng": "Java"
+    },
+    {
+      "fr": "Swing",
+      "eng": "Swing"
+    },
+    {
+      "fr": "Voir sur Github",
+      "eng": "View on Github"
+    },
+    {
+      "fr": "Processing",
+      "eng": "Processing"
+    },
+    
+    {
+      "fr": "Implémentation d'éoliennes et de pylones en 3d en Processing.",
+      "eng": "Implementation of 3D windmills and pylons in Processing."
+    },
+    {
+      "fr": "Processing",
+      "eng": "Processing"
+    },
+    {
+      "fr": "Voir sur Github",
+      "eng": "View on Github"
+    },
+    {
+      "fr": "Jeu de la Vie",
+      "eng": "Game of Life"
+    },
+    {
+      "fr": "Implémentation et simulation du jeu de la vie de Conway en C++", 
+      "eng":"Implementation  and simulation of Conway's Game of life in C++ in a terminal "
+    },
+    {
+        "fr":"C++",
+        "eng":"C++"
+      },  
+      {
+        "fr": "Voir sur Github",
+        "eng": "View on Github"
+      },{
+        "fr":"Pathfinding en Python",
+        "eng":"Pathfinding in Python"
+      },
+      {
+        "fr":"Implémentation en Python d'un algorithme pour calculer un chemin d'un point A à un point B, et visualiser cet algorithme.",
+        "eng":"Implementation in Python of an algorithm to calculate a path from a point A to a point B, and visualize this algorithm."
+      },
+      {
+        "fr":"Python",
+        "eng":"Python"
+      },
+      {
+        "fr": "Voir sur Github",
+        "eng": "View on Github"
+      },
+      {
+        "fr":"Stages",
+        "eng":"Internships"
+      },
+      {
+        "fr":"Travail Encadré de Recherche",
+        "eng":"Research Supervised Work"
+    },
+    {
+        "fr":"Janvier - Avril 2025",
+        "eng":"January - April 2025"
+    },
+    {
+        "fr":"INRIA - Équipe GRACE",
+        "eng":"INRIA - GRACE Team"
+    },
+    {
+        "fr":"Etude et implémentation de protocoles de preuve 0-knowledge pour des procédés cryptographiques, sous le tutorat du post-doctorant Christophe Levrat. J'utilise le langage C et plus particulièrement la bibliothèque Pari GP pour implémenter ces procédés.",
+        "eng":"Study and implementation of 0-knowledge proof protocols for cryptographic processes, under the supervision of postdoctoral researcher Christophe Levrat. I use the C language and particularly the Pari GP library to implement these processes."
+    },
+    {
+        "fr":"Cryptographie",
+        "eng":"Cryptography"
+    },
+    {
+        "fr":"Recherche",
+        "eng":"Research"
+    },
+    {
+        "fr":"Protocoles",
+        "eng":"Protocols"
+    },
+    {
+        "fr":"Stage de 3ème",
+        "eng":"3rd Year Internship"
+    },
+    {
+        "fr":"Décembre 2018",
+        "eng":"December 2018"
+    },
+    {
+        "fr":"Laboratoire de Recherche en Informatique (LRI)",
+        "eng":"Computer Research Laboratory (LRI)"
+    },
+    {
+        "fr":"Découverte des bases de l'informatique et du langage Python sous le tutorat de Jean-Christophe Filliatre.",
+        "eng":"Discovery of computer science basics and Python language under the mentorship of Jean-Christophe Filliatre."
+    },
+    {
+        "fr":"Python",
+        "eng":"Python"
+    },
+    {
+        "fr":"Recherche",
+        "eng":"Research"
+    },
+    {
+        "fr":"Expériences Professionnelles",
+        "eng":"Professional Experiences"
+    },
+    {
+        "fr":"AI Expert pour Outlier",
+        "eng":"AI Expert for Outlier"
+    },
+    {
+        "fr":"2024-actuellement",
+        "eng":"2024-currently"
+    },
+    {
+        "fr":"Outlier",
+        "eng":"Outlier"
+    },
+    {
+        "fr":"Je travaille en Freelance pour l'entreprise Outlier. Mon travail consiste à entrainer, tester, noter et corriger des IA pour générer et corriger des programmes informatiques. On me confie également de temps à autre la tâche de corriger les tâches d'autres contributeurs pour Outlier.",
+        "eng":"I work as a Freelancer for Outlier. My work involves training, testing, rating, and correcting AIs to generate and fix computer programs. I am also occasionally tasked with reviewing the work of other contributors for Outlier."
+    },
+    {
+        "fr":"FreeLance",
+        "eng":"Freelance"
+    },
+    {
+        "fr":"IA",
+        "eng":"AI"
+    }
+]

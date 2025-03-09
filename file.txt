@@ -1,0 +1,64 @@
+  <section id = "expId" class="experiences-container">
+    <div class="experiences-column stages">
+        <h2 data-translate>Stages</h2>
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>Travail Encadré de Recherche</h3>
+                <span class="experience-date" data-translate>Janvier - Avril 2025</span>
+            </div>
+            <div class="experience-details">
+                <p class="experience-company" data-translate>INRIA - Équipe GRACE</p>
+                <p  data-translate class="experience-description">
+                    Étude et implémentation de protocoles de preuve 0-knowledge pour des procédés cryptographiques, sous le tutorat du post-doctorant Christophe Levrat.
+                    J'utilise le langage C et plus particulièrement la bibliothèque Pari GP pour implémenter ces procédés.
+                </p>
+                <div class="experience-skills">
+                    <span class="skill-tag" data-translate>Cryptographie</span>
+                    <span class="skill-tag" data-translate>Recherche</span>
+                    <span class="skill-tag" data-translate>Protocoles</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>Stage de 3ème</h3>
+                <span class="experience-date" data-translate>Décembre 2018</span>
+            </div>
+            <div class="experience-details">
+                <p class="experience-company"data-translate >Laboratoire de Recherche en Informatique (LRI)</p>
+                <p class="experience-description" data-translate>
+                    Découverte des bases de l'informatique et du langage Python sous le tutorat de Jean-Christophe Filliatre.
+                </p>
+                <div class="experience-skills">
+                    <span class="skill-tag" data-translate>Python</span>
+                    <span class="skill-tag" data-translate>Recherche</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="experiences-column pro">
+        <h2 data-translate>Expériences Professionnelles</h2>
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 data-translate>AI Expert pour Outlier</h3>
+                <span class="experience-date" data-translate>2024-actuellement</span>
+            </div>
+            <div class="experience-details">
+                <p  data-translate class="experience-company">Outlier</p>
+                <p  data-translate class="experience-description">
+                    Je travaille en Freelance pour l'entreprise Outlier. Mon travail consiste à entrainer, tester, noter et corriger des IA pour générer et corriger des programmes informatiques.
+                    On me confie également de temps à autre la tâche de corriger les tâches d'autres contributeurs pour Outlier.
+                </p>
+                <div data-translate class="experience-skills">
+                    <span data-translate class="skill-tag">FreeLance</span>
+                    <span data-translate class="skill-tag">Informatique</span>
+                    <span data-translate class="skill-tag">IA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  </body>
+</html>
