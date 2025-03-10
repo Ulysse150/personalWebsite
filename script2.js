@@ -18,7 +18,6 @@ const observer = new IntersectionObserver((entries) => {
   
 
 
-
   let currentLang = 'fr'; // Langue par défaut (français)
   let translations = {}; // Variable pour stocker les traductions JSON
   
@@ -64,6 +63,12 @@ const observer = new IntersectionObserver((entries) => {
   }
   function changerLangue(langue) {
     currentLang = (currentLang === "fr") ? "eng" : "fr";
+    const lien = document.getElementById("lienCV");
+    if (currentLang === "fr"){
+      lien.setAttribute("href", "CVFrancais.pdf");
+    }else{
+      lien.setAttribute("href", "CVAnglais.pdf");
+    }
     updateText()
   }
   
