@@ -24,8 +24,8 @@
       "eng": "About me:"
     },
     {
-      "fr": "Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en LDD3 Magistère Informatique à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie. Vous pourrez trouver ici quelques liens vous permettant de mieux comprendre mon parcours dans l'informatique :",
-      "eng": "Welcome to my personal website! My name is Raphael Leonardi, I am a student in LDD3 Computer Science at Paris-Saclay University, interested in Machine Learning and Cryptography. Here you will find some links to better understand my journey in computer science:"
+      "fr": "Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en M1 Artificial Intelligence à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie. Vous pourrez trouver ici quelques liens vous permettant de mieux comprendre mon parcours dans l'informatique :",
+      "eng": "Welcome to my personal website! My name is Raphael Leonardi, I am a student in M1 Artificial Intelligence at Paris-Saclay University, interested in Machine Learning and Cryptography. Here you will find some links to better understand my journey in computer science:"
     },
     {
       "fr":"Mon CV",
@@ -81,8 +81,8 @@
       "eng":"January-May 2025 : Supervised Research Work"
     },
     {
-      "fr": "J'effecture actuellement un stage de TER (Travail Encadré de Recherche). Je l'effectue à l'INRIA au sein de l'équipe GRACE, sous le tutorat du post doctorant Christophe Levrat. Mon travail consiste à étudier et implémenter des protocoles de preuve 0-knowledge, pour des procédés cryptographiques.",
-      "eng": "I am currently doing a TER internship (Supervised Research Work) at INRIA within the GRACE team, under the mentorship of postdoctoral researcher Christophe Levrat. My work involves studying and implementing zero-knowledge proof protocols for cryptographic processes."
+      "fr": "J'ai effectué un TER à l'INRIA au sein de l'équipe GRACE, sous le tutorat du post doctorant Christophe Levrat. Mon travail consiste à étudier et implémenter des protocoles de preuve 0-knowledge, pour des procédés cryptographiques.",
+      "eng": "I did a TER internship (Supervised Research Work) at INRIA within the GRACE team, under the mentorship of postdoctoral researcher Christophe Levrat. My work involves studying and implementing zero-knowledge proof protocols for cryptographic processes."
     },
     {
       "fr": "Compétences :",
@@ -130,7 +130,7 @@
     },
     {
       "fr": "Projets :",
-      "eng": "Projects:"
+      "eng": "Projects :"
     },
     {
       "fr": "Voici quelques projets que j'ai réalisé, certains pour l'université, et d'autres que j'ai décidé de faire de moi-même.",
@@ -245,13 +245,44 @@
         "eng":"Internships"
       },
       {
+        "fr":"Implémentation d'algorithme de chiffrement post-quantique",
+        "eng":"Implementation of post-quantum cyphering algorithms"
+      },
+
+      {
+        "fr":"Mai - Juillet 2025",
+        "eng":"May - July 2025"
+      },
+       {
+        "fr":"INRIA - Équipe GRACE",
+        "eng":"INRIA - GRACE Team"
+       }, 
+       {
+        "fr":"Ce stage de 2 mois au sein de l'équipe GRACE de l'INRIA, sous la tutelle du post-doctorant Christophe Levrat, avait pour but de découvrir et d'implémenter l'algorithme de chiffrement HQC. J'ai pu découvrir la cryptographie post-quantique, et plus particulièrement les algorithmes de chiffrement basés sur les codes correcteurs d'erreurs. J'ai utilisé le langage C pour implémenter cet algorithme.",
+        "eng":"This 2-month internship with the GRACE team at INRIA, supervised by postdoctoral researcher Christophe Levrat, focused on exploring and implementing the HQC encryption algorithm, allowing me to discover post-quantum cryptography—particularly code-based encryption algorithms—using the C programming language."
+    },
+
+    {
+        "fr":"Cryptographie",
+        "eng":"Cryptography"
+      },
+      {
+        "fr":"Recherche",
+        "eng":"Research"
+      },
+      {
+        "fr":"Codes correcteurs",
+        "eng":"Error-correcting codes"
+      },
+
+      {
         "fr":"Travail Encadré de Recherche",
         "eng":"Research Supervised Work"
-    },
-    {
+      },
+      {
         "fr":"Janvier - Avril 2025",
         "eng":"January - April 2025"
-    },
+      },
     {
         "fr":"INRIA - Équipe GRACE",
         "eng":"INRIA - GRACE Team"
