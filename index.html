@@ -12,17 +12,23 @@
   <link rel="stylesheet" href="timeLine.css">
   <script defer src="script2.js"> </script>
   <title>Raphael Leonardi</title>
-  
+  <div id="google_translate_element" style="display:none;"></div>
+  <script type="text/javascript" 
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
+
+
 </head>
 <body>
   <h1></h1>
   <p></p>
   <body >
+    
     <div class="container">
       <div class="red-band">
       
         
-        <button class="language-btn" onclick="changerLangue()">
+        <button id = "btn-switch" onclick="changeLanguage()" class="language-btn">
             <span class="lang-text">FR</span>
             <span class="lang-divider">/</span>
             <span class="lang-text">EN</span>
@@ -44,7 +50,7 @@
           
         <section id="welcId"  class="animated">
           <h1 class="styled-title" data-translate >A propos de moi :</h1>
-          <p class="textNoir"data-translate>Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en LDD3 Magistère Informatique à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie.
+          <p class="textNoir"data-translate>Bienvenue sur mon site personnel ! Je m'appelle Raphael Leonardi, je suis un étudiant en M1 Artificial Intelligence à l'Université Paris-Saclay, intéressé par le Machine Learning et la Cryptographie.
             Vous pourrez trouver ici quelques liens vous permettant de mieux comprendre mon parcours dans l'informatique :
 
 
@@ -63,21 +69,6 @@
               <section class="timeline">
                
                 <ol>
-                  <li>
-                    <div>
-                      <time  data-translate>Décembre 2018 : Stage de 3ème au LRI</time>
-                    <section data-translate="">J'ai effectué mon stage de 3ème sous la tutelle du chercheur Jean Christophe Filliatre au sein du Laboratoire de Recherche en Informatique (aujourd'hui LISN), j'ai pu apprendre les bases de l'informatique notamment le langage Python.
-                      Déja engagé dans une optique d'étudier l'informatique, ce stage a pu confirmer mes attentes.</section> 
-
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <time  data-translate>2020-2022 : Lycée</time> 
-                     <section  data-translate> J'ai effectué mon parcours de lycéen au Lycée Jules Verne à Limours, en prennant en terminale 
-                      les spécialités de Mathématiques, Numérique et Science de l'Informatique et Mathématiques Expertes.</section>
-                    </div>
-                  </li>
                
                   
                   <li>
@@ -90,9 +81,9 @@
                   </li>
 
                   <li>
-                    <div ><time data-translate="">2024-actuellement : LDD3 Magistère Informatique </time>
+                    <div ><time data-translate="">2024-2025 : LDD3 Magistère Informatique </time>
                      <section data-translate="">Après deux ans de Mathématiques et d'Informatique, j'ai décidé de me spécialiser dans l'Informatique en
-                      rejoignant le Magistère d'Informatique, qui faisait partie des parcours que je pouvais prendre en 3ème année.</section> 
+                      rejoignant le Magistère d'Informatique.</section> 
                       </div>
                   </li>
 
@@ -102,6 +93,31 @@
                       <time  data-translate>Janvier-Avril 2025 : Travail Encadré de Recherche </time>
                      <section data-translate>J'ai effectué un TER
                       à l'INRIA au sein de l'équipe GRACE, sous le tutorat du post doctorant Christophe Levrat Mon travail consiste à étudier et implémenter des protocoles de preuve 0-knowledge, pour des procédés cryptographiques.</section>
+
+                      </div>
+                  </li>
+
+                  
+                   <li>
+                    <div >
+                      <time  data-translate>Mai- Juillet 2025 : Stage de Recherche </time>
+                     <section > Stage effectué sous la tutelle du post-doctorant Christophe Levrat. Mon activité
+                      principale consistait à découvrir et implémenter un algorithme de chiffrement post-quantique en langage C.
+                       Il s'agit
+                      de l'algorithme Hamming-Quasi-Cylic (HQC) basé sur les codes correcteurs.
+
+                     </section>
+
+                      </div>
+                  </li>
+                  <li>
+                    <div >
+                      <time  data-translate>Septembre 2025 : M1 Artificial Intelligence </time>
+                     <section > J'effectue actuellemnt à l'université Paris-Saclay un Master en Informatique,
+                      mention Artificial Intelligence. 
+
+
+                     </section>
 
                       </div>
                   </li>
@@ -473,7 +489,7 @@
         
         <div class="experience-card">
           <div class="experience-header">
-              <h3 data-translate >Travail Encadré de Recherche</h3>
+              <h3 data-translate >Stage de Recherche</h3>
               <span data-translate class="experience-date" >Janvier - Avril 2025</span>
           </div>
           <div class="experience-details">
