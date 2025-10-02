@@ -37,11 +37,11 @@ function changeLanguage(){
   if (currentLang === "en") {
     translateTo("fr");
     currentLang = "fr";
-    lien.setAttribute("href", "CVFrancais.pdf");
+    lien.setAttribute("href", "CVFr.pdf");
   } else {
     translateTo("en");
     currentLang = "en";
-    lien.setAttribute("href", "CVAnglais.pdf");
+    lien.setAttribute("href", "CVEng.pdf");
     
   }
       console.log("on change");
