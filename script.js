@@ -33,6 +33,9 @@ ctx.fillStyle = 'blue'; // Couleur de remplissage
 ctx.fillText('Ma tete ici', 10, 20);
 
 
+// Drag-to-scroll sur la frise
+
+
 
 
 const observer = new IntersectionObserver((entries) => {
@@ -103,3 +106,29 @@ function changerLangue(langue) {
 
 // Charger les traductions dès que la page est prête
 window.onload = loadTranslations;
+
+const timeline = document.querySelector('.timeline');
+
+if (timeline) {
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  timeline.addEventListener('mousedown', (e) => {
+    isDown = true;
+    startX = e.pageX - timeline.offsetLeft;
+    scrollLeft = timeline.scrollLeft;
+  });
+
+  timeline.addEventListener('mouseleave', () => { isDown = false; });
+  timeline.addEventListener('mouseup',    () => { isDown = false; });
+
+  timeline.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x    = e.pageX - timeline.offsetLeft;
+    const walk = (x - startX) * 1.5; // 1.5 = vitesse de défilement
+    timeline.scrollLeft = scrollLeft - walk;
+  });
+}
+
